@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { ScrollView, View, TouchableOpacity, Text, ImageBackground, StyleSheet } from "react-native";
 import { Audio } from "expo-av";
-import Botton1 from "../Navegaciones/Botton";
 
 const canciones = [
   { id: 1, title: 'Fly Away', cover: require('../assets/Imágenes/Forza5.jpg'), audio: require('../assets/ost/Urbandawn-Fly-Away.mp3') },
